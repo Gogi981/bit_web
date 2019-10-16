@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'indian';
+    src: url('./fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+     url('./fonts/kaushanscript-regular-webfont.woff') format('woff');
+   
+}
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Trebuchet MS, sans-serif;
+    font-weight: normal;
+    }
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: #2962ff;
+    color: white;
+   }
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: #2979ff;
+    color: white;
+}
+  
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-style: normal;
+}
+p#para1 {
+font-family:'indian', Arial, sans-serif;
+font-size: 1.5rem;
+}
+p#para2 {
+font-family: 'Indie Flower', cursive;
+font-size: 1.2em;
+font-style: oblique;
+}
+
+p#para3{
+font-family: Arial,fantasy;
+}
+p#para3 span {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+p#titanic1{
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+p#titanic2 {
+text-transform: lowercase;
+text-decoration: line-through;
+}
+
+
