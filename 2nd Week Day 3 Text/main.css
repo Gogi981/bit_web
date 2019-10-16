@@ -59,4 +59,8 @@ text-transform: lowercase;
 text-decoration: line-through;
 }
 
+p#a3 {
+    text-align: right;
+}
+
 
