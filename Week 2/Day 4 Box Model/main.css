@@ -1,0 +1,50 @@
+body{margin: 0px}
+
+h1 {
+    width: 960px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    background: black;
+    color: white;
+    box-shadow: 10px 5px 5px 10px red;
+      }
+
+p {
+    margin: 0px;
+   
+      }
+p.a1 {
+    border: 5px dashed red;
+    color: rgb(7, 7, 7);
+    height:500px;
+    background:yellow;
+    width: 300px;
+    overflow: auto;
+    margin: auto 20px auto 0px;
+    padding: 0px;
+    display: inline-block;
+  
+    }
+
+p.a2 {
+    border: 5px solid green;
+    color:rgb(2, 2, 2);
+    background: red;
+    height: 300px;
+    width: 400px;
+    overflow: auto;
+    display: inline-block;
+    margin:-50px 20px 50px;
+    visibility: hidden;
+    }
+
+p.a3 {
+    border: 5px dashed red;
+    color: rgb(7, 7, 7);
+    height:500px;
+    background:yellow;
+    width: 300px;
+    overflow: auto;
+
+    }
