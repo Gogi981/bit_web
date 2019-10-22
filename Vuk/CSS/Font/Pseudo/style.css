@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'alex_brushregular';
+  src: url('font/alexbrush-regular-webfont.woff2') format('woff2'),
+       url('font/alexbrush-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+body {
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'alex_brushregular';
+}
+#hov:hover {
+  color: yellow;
+}
+#hov:active {
+  color: coral;
+}
+
+li {
+  text-shadow: 3px 3px 3px rgb(12, 10, 10);
+  color: aqua;
+}
+h1 {
+  text-shadow: 5px 5px 5px rgba(12,10, 10);
+}
+a {
+  font-family: 'alex_brushregular';
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+a:link{
+  color: blueviolet;
+}
+
+a:hover{
+  color: green;
+}
+a:active {
+  color: blue;
+}

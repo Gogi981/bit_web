@@ -1,0 +1,38 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: none;
+    font-size: 30px;
+    box-shadow: 0 1px grey;
+    width: 700px;
+    
+    
+}
+th {
+    background-color: rgb(196, 61, 61);
+    color: white;
+    padding-left: 10px;
+}
+
+table img {
+    height: 100px;
+}
+td {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border: none;
+    padding-left: 10px
+}
+
+tr:hover {
+    background-color: rgb(252, 200, 56);
+}
+tr:nth-child(odd) {
+    background-color: rgb(235, 232, 227);
+}
+
+caption {
+    font-size: 50px;
+}

@@ -1,0 +1,16 @@
+.para1 {
+    color: rgb(0, 206, 208);
+    background-color: black;
+    opacity: 0.6;
+}
+
+.para2 {
+    color: darkturquoise;
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+.para3 {
+    color: #00ced0;
+    background-color: #141515;
+}
+
