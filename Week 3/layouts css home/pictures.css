@@ -1,0 +1,39 @@
+/* .cf:before,
+.cf:after{
+    content: "";
+    display: table;
+}
+.cf:after{
+    clear: both;
+} */
+
+/* #first{
+    display: block;
+    height: 200px;
+    margin-left: auto;
+}
+#second{
+    display: block;
+    width: 200px;
+    margin:auto;
+}
+#third{
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+} */
+
+body{
+    width: 1200px;
+    margin: auto;
+    background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/840x460/110257349.jpg?k=8f5df2c81a0e9187fdc3739ab95cc5849437fff935e91b326cce776aac5edcc1&o=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 20px;
+}
