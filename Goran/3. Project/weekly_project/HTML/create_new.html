@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Criminal</title>
+</head>
+
+<body>
+    <table>
+        <td width='400'></td>
+        <td width="1000">
+
+            <a href="posters/index.html">Back To Homepage</a>
+            <br>
+            <br>
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>Top Headline</legend>
+                    <p>Headline text:
+                        <input type="text" name="headline_text" value="">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Images</legend>
+                    <p>Image 1:
+                        <input type="file" name="image_1">
+                    </p>
+                    <p>Image 2:
+                        <input type="file" name="image_2">
+                    </p>
+                    <p>Image 3:
+                        <input type="file" name="image_3">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Reward</legend>
+                    <p>Reward money:
+                        <input type="number" name="money" value="reward">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Reward</legend>
+                    <p>Aliases:</p>
+                    <input type="text" name="aliases" value="">
+                    <p>Birth:</p>
+                    <input type="date" name="birth" value="birthdate">
+                    <p>Hair:</p>
+                    <input type="text" name="hair" value="">
+                    <p>Eyes:</p>
+                    <input type="text" name="eyes" value="">
+                    <p>Height:</p>
+                    <input type="number" name="height" value="">
+                    <p>Weight:</p>
+                    <input type="number" name="weight" value="weight">
+                    <p>Sex:</p>
+                    <select name="sex">
+                        <option value="female" selected='selected'>Female</option>
+                        <option value="male">Male</option>
+                    </select>
+
+                    <p>ID Number:</p>
+                    <input type="number" name="ID_number" value="ID_number" placeholder="">
+                    <p>Occupation:</p>
+                    <input type="text" name="occupation" value="">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Remarks</legend>
+                    <textarea name="remarks" placeholder="Remarks text" rows="7" cols="135"></textarea>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Caution</legend>
+                    <textarea name="caution" placeholder="Caution text" rows="7" cols="135"></textarea>
+                </fieldset>
+                <br>
+
+
+                <button type='reset'>
+                    <img src="./images/reset.png" width="10" value="Reset">Reset
+                </button>
+                <button type='submit'>
+                    <img src="./images/submit.png" width="10" value="Create poster">Create poster
+                </button>
+            </form>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+
+        </td>
+        <td width='400'></td>
+    </table>
+</body>
+
+</html>
