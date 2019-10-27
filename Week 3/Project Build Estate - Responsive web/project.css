@@ -1,0 +1,522 @@
+/*GENERAL======================================================================================================================*/
+
+@font-face {
+    font-family: robotobold;
+    src: url(./fonts/roboto-bold-webfont.woff2) format(woff2),
+         url(./fonts/roboto-bold-webfont.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: robotoregular;
+    src: url(./fonts/roboto-regular-webfont.woff2) format(woff2),
+         url(./fonts/roboto-regular-webfont.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: robotoregular,Verdana, Geneva, Tahoma, sans-serif
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+/* HEADER =====================================================================================================================*/
+
+#container header {
+    position: relative;
+    width: 100%;
+}
+
+#container header img {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.logo {
+    font-family: robotobold,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: white;
+    z-index: 1;
+    font-size: 2em;
+}
+
+.logo span {
+    color: #d07c20;
+    border-top: solid 4px white;
+    border-bottom: solid 4px white;
+    border-left: solid 4px white;
+    padding-left: 5px;
+}
+
+#container header nav ul{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    right: 20px;
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+#container header nav ul li {
+    display: inline-block;
+    color: white;
+    font-family: robotobold,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0px 8px;
+}
+
+#container header h1 {
+    position: absolute;
+    bottom: 41%;
+    text-align: center;
+    font-size: 2.6em;
+    color: white;
+    font-weight: normal;
+    margin: 0px 15px;
+    z-index: 2;
+}
+
+#container header button {
+    position: absolute;
+    top: 62%;
+    left: 46%;
+    width: 130px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1c70b1;
+    color: white;
+    padding: 10px;
+}
+
+/* MAIN =======================================================================================================================*/
+
+main section{
+    margin-top: 5%;
+}
+
+main section>header {
+    text-align: center;
+    font-size: 200%;
+    margin: 3% 0% 0%;
+}
+.divider{
+text-align: center;
+margin-bottom: 2%;
+}
+.divider .line{
+    display: inline-block;
+    width: 13%;
+    border-bottom: solid 2px;
+    position: relative;
+    margin: 0px auto;;
+    z-index: 0;
+}
+.divider .box {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border: solid 2px;
+    transform:rotate(45deg);
+    position: relative;
+    z-index: 1;
+    margin: 0px auto;
+    top: 10px;
+
+}
+
+/* SECTION -- Who We Are ======================================================================================================*/
+
+#whoWeAre {
+padding: 0% 15%;
+}
+
+#whoWeAre main article {
+    box-sizing: border-box;
+    float: left;
+    line-height: 200%;
+    padding: 0px;
+    font-size: 0.8em;
+    margin: 4% 0% 4% 0%;
+}
+
+#whoWeAre main article img{
+    width: 100%;
+}
+
+#whoWeAre main article header{
+    color:#82c3f5;
+    font-size: 140%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#whoWeAre main article ul {
+    list-style-image: url(./images/arrow_bullet.png);
+    margin: 6% 0% 0% 6%;
+    list-style-position: outside;
+    line-height: 150%;
+}
+
+/* SECTION -- What People Says ================================================================================================*/
+
+#whatPeopleSays  {
+    padding: 2% 5%;
+}
+
+#whatPeopleSays main article {
+    box-sizing: border-box;
+    background-color: #82c3f5;
+    float: left;
+    height: 20%;
+    padding: 3%
+   }
+
+#whatPeopleSays main article img {
+    width: 25%;
+    float: left;
+    border-radius: 100%;
+    border: solid 1px white;
+    margin-right: 3%;
+}
+
+.commentText {
+    font-size: 80%;
+    clear:left;
+    padding-top: 1%;
+    line-height: 150%;
+    color: white;
+}
+
+.commentName  {
+    display: block;
+    font-style: bold;
+    margin-top: 5%;
+}
+
+.commentRating {
+    display: block;
+    padding: 1% 0% 0% 2%;
+    color: white;
+}
+
+/* SECTION -- Get In Touch ====================================================================================================*/
+
+#getInTouch>main>div {
+    color: white;
+    float: left;
+    height: 180px;
+    padding: 25px;
+  }
+
+#getInTouch > main > div .contactTitle {
+display: block;
+text-align: center;
+font-size: 2em;
+margin-bottom: 15px;
+}
+
+#contact {
+    background-color: #3bdd9a;
+    line-height: 35px;
+    text-align: center;
+}
+
+#contact img {
+    width: 20px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#connect {
+    background-color: #fd5282;
+}
+
+#connect .icons {
+    display:block;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#connect img{
+    width: 25px;
+    display: inline-block;
+    margin: 0px 15px; 
+}
+
+#address {
+    background-color: #376de4;
+}
+
+#address img{
+    width: 15px;
+}
+
+#address address{
+    text-align: center;
+}
+
+#getInTouch>main>div#home {
+    background-color: #82c3f5;
+    padding: 0px;
+}
+
+#home img{
+    height:100%;
+    display: block; 
+    margin: 0px auto;
+}
+
+/* SECTION -- Mail Us =========================================================================================================*/
+
+#mailUs {
+    padding: 0px 0px 50px 0px; 
+}
+
+#mailUs form {
+    width:70%;
+    margin:0px auto ;
+}
+
+#mailUs form #name, #mailUs form #email, #mailUs form #phone {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 30px;
+    margin-left: 1%
+}
+
+#mailUs form #message {
+    width: 98%;
+    margin: 20px 1%;
+    padding: 5px;
+}
+#mailUs form #submit {
+    background-color: #fd9727;
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    border:none;
+    margin-left: 1%;
+    width: 80px;
+}
+
+/* FOOTER =====================================================================================================================*/
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 0px 0px 20px 0px;
+}
+
+footer nav {
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    padding-top: 40px;
+}
+
+footer nav ul{
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer nav ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+
+/* RESPONSIVE =================================================================================================================*/
+
+
+/* Breakpoint: DESKTOP  1200px  */
+
+@media all and (min-width: 1200px) {
+    #whoWeAre main article, #whoWeAre main img{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    #whoWeAre main article:nth-child(3) {
+        margin-right: 0%;
+    }
+
+    #whatPeopleSays main article{
+        width:32%;
+        margin-right: 2%;
+    }
+
+    #whatPeopleSays main article:nth-child(3){
+        margin-right: 0%;  
+    }
+
+    #getInTouch>main>div{
+        width: 25%;
+    }
+}
+
+/* Breakpoint: TABLET  768px  */
+
+@media all and (max-width:1200px) {
+    #whoWeAre main article, #whoWeAre main img{
+        width: 49%;
+        margin-right: 1%;
+    }
+    #whoWeAre main article:nth-child(2) {
+        margin-right: 0%;
+    }
+
+    #whatPeopleSays main article{
+        width:49%;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+
+    #whatPeopleSays main article:nth-child(2n){
+        margin-right: 0%;  
+    }
+
+    #getInTouch>main>div{
+        width: 50%;
+    }
+
+}
+
+/* Breakpoint: MOBILE   */
+
+@media all and (max-width: 767px) {
+
+/* HEADER */
+    .logo{
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 30px;
+        color:#d7a058;
+        font-size: 40px;
+    }
+
+    .logo span {
+        color: #939393;
+        border-top: solid 6px #939393;
+        border-bottom: solid 6px #939393;
+        border-left: solid 6px #939393;
+        padding-left: 5px;
+        font-size: 40px;
+    }
+
+    #container header nav ul{
+        position: static;
+        width: 90%;
+        display: block;
+        font-size: 15px;
+        background-color: #7fc2f7;
+        margin: 30px auto;
+    }
+
+    #container header nav ul li {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    #container header h1 {
+        top: 65%;
+        font-size: 2.1em;
+    }
+
+    #container header button {
+        top: 83%;
+        left: 39%;
+    }
+
+/*SECTION Who We Are*/
+    #whoWeAre main article, #whoWeAre main img{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+/*SECTION What People Says*/
+    #whatPeopleSays main article{
+        width:100%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+/*SECTION Get In Touch*/
+    #getInTouch>main>div{
+        width: 50%;
+    }
+
+/*SECTION Mail Us*/
+    #mailUs {
+    padding: 0px 0px 50px 0px; 
+    }
+
+    #mailUs form {
+        width:90%;
+        margin:0px auto ;
+    }
+
+    #mailUs form #name, #mailUs form #email, #mailUs form #phone {
+        width: 95%;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 50px;
+        margin: 2% 0%;
+    }
+
+    #mailUs form #message {
+        width: 95%;
+        margin: 2% 0%;
+        padding: 10px;
+    }
+
+    #mailUs form #submit {
+        padding: 10px;
+        font-size: 0.9em;
+        border:none;
+        margin: 2% 0%;
+        width: 160px;
+    }
+
+/*FOOTER*/
+    footer nav {
+        width: 100%;
+    }
+}
