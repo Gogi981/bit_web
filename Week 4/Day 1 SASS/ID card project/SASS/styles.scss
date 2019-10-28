@@ -1,0 +1,62 @@
+
+@import "variables";
+@import "mixins";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #e3f2fd;
+    
+    .container {
+        width: $fullwidth;
+        margin: 0 auto;
+        
+        h1 {
+            padding: $sizepx 0;
+            text-align: center;
+            background: $backcol;
+            color: white;
+        }
+        
+        h2 {
+            margin-bottom: 0px;
+            padding-left: 10px;
+            text-align: left;
+            background: $backcol;
+            color: white;
+        }
+        
+        img {
+            height: $fullwidth;
+            margin: 40px auto 40px;
+            display: block;
+        }
+        
+        table {
+            width: $fullwidth;
+            color: #333;
+            background: white;
+            border-collapse: collapse;
+            
+            tr {
+                border-bottom: 1px solid #eee;
+                
+                td {
+                    @include boxshadow(5px);
+                    padding: 5px 0;
+                }
+                
+                td:first-child {
+                    @include textshadow(green);
+                    width: 300px;
+                    padding-left: 10px;
+                }
+            }
+        }
+        
+    }
+}
+    p#footer {
+        margin-top: $fullwidth;
+    }
