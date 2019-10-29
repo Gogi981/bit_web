@@ -1,0 +1,95 @@
+.container{
+    box-sizing: border-box;
+    width: 960px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.navbar {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.k {
+padding:10px;
+}
+
+header img{
+    width: 100%;
+}
+ul li{
+    float: right;
+    color: aliceblue;
+    padding: 15px;
+
+}
+.cf:before, .cf:after{
+    content: "";
+    display: table;
+}
+.cf::after{
+    clear: both;
+
+}
+ul{
+    width: 100%;
+    float: right;
+    display: inline;
+    background-color: brown;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+div{
+    width: 1000px;
+    margin:auto;
+
+}
+div img{
+    width: 100%;
+    padding: 0;
+}
+#subdiv{
+    margin: 10px;
+}
+#subdiv img{
+    width: 300px;
+    height: 200px;
+}
+article{
+    width: 33.3%;
+    height: 434px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    overflow: hidden;
+}
+article p {
+    width: 300px;
+}
+
+aside {
+    width: 300px;
+    height:70%%;
+    box-sizing: border-box;
+    float: right;
+    background-color: #FFBF00;
+    padding: 10px;
+}
+
+#footer{
+    background-color: rgb(16, 16, 107);
+    height: 40px;
+    width: 1300px;
+    color: white;
+}
+footer {
+    padding: 2px 80px;  
+    background-color: #2d3e50; 
+    color: white;
+    width: 1024px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2px;
+}
