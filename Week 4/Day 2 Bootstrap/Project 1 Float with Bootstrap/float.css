@@ -1,6 +1,6 @@
-.container{
+.container {
     box-sizing: border-box;
-    width: 960px;
+    width: 100%;
     padding: 0px;
     margin: 0px auto;
 }
@@ -11,27 +11,29 @@
 }
 
 .k {
-padding:10px;
+    padding: 10px;
 }
 
-header img{
+header img {
     width: 100%;
 }
-ul li{
+
+ul li {
     float: right;
     color: aliceblue;
     padding: 15px;
-
 }
-.cf:before, .cf:after{
+
+.cf:before, .cf:after {
     content: "";
     display: table;
 }
-.cf::after{
-    clear: both;
 
+.cf::after {
+    clear: both;
 }
-ul{
+
+ul {
     width: 100%;
     float: right;
     display: inline;
@@ -40,23 +42,27 @@ ul{
     padding: 0;
     margin: 0;
 }
-div{
-    width: 1000px;
-    margin:auto;
 
+div {
+    width: 1000px;
+    margin: auto;
 }
-div img{
+
+div img {
     width: 100%;
     padding: 0;
 }
-#subdiv{
+
+#subdiv {
     margin: 10px;
 }
-#subdiv img{
+
+#subdiv img {
     width: 300px;
     height: 200px;
 }
-article{
+
+article {
     width: 33.3%;
     height: 434px;
     float: left;
@@ -64,32 +70,35 @@ article{
     padding: 0px;
     overflow: hidden;
 }
+
 article p {
     width: 300px;
 }
 
 aside {
     width: 300px;
-    height:70%%;
+    height: 70%%;
     box-sizing: border-box;
     float: right;
     background-color: #FFBF00;
     padding: 10px;
 }
 
-#footer{
+.footer {
     background-color: rgb(16, 16, 107);
     height: 40px;
-    width: 1300px;
+    width: 100%;
     color: white;
 }
+
+/* 
 footer {
-    padding: 2px 80px;  
-    background-color: #2d3e50; 
+    padding: 2px 80px;
+    background-color: #2d3e50;
     color: white;
     width: 1024px;
     height: 30px;
     margin-left: auto;
     margin-right: auto;
     line-height: 2px;
-}
+} */

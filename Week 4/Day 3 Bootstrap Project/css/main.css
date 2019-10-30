@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Lato-Black';
+  src: url(../vendor/font-awesome/Lato-Black.ttf); }
+@font-face {
+  font-family: 'Lato-BlackItalic';
+  src: url(../vendor/font-awesome/Lato-BlackItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../vendor/font-awesome/Lato-Bold.ttf); }
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url(../vendor/font-awesome/Lato-Hairline.ttf); }
+@font-face {
+  font-family: 'Lato-HairlineItalic';
+  src: url(../vendor/font-awesome/Lato-HairlineItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url(../vendor/font-awesome/Lato-Italic.ttf); }
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(../vendor/font-awesome/Lato-Light.ttf); }
+@font-face {
+  font-family: 'Lato-LightItalic';
+  src: url(../vendor/font-awesome/Lato-LightItalic.ttf); }
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../vendor/font-awesome/Lato-Regular.ttf); }
+.dividerWhite, .dividerBlack {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  z-index: 1; }
+  .dividerWhite p, .dividerBlack p {
+    position: relative;
+    bottom: 6px;
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    font-size: 3em;
+    padding: 1px; }
+  .dividerWhite div, .dividerBlack div {
+    display: inline-block;
+    position: relative;
+    border-bottom: solid 0.3em white;
+    bottom: 1em;
+    width: 25%;
+    z-index: 2; }
+
+.dividerBlack p {
+  color: black; }
+.dividerBlack div {
+  border-bottom: solid 0.3em black; }
+
+.titleWhite, .titleBlack {
+  font-family: 'Lato-Black';
+  color: white;
+  text-align: center; }
+
+.titleBlack {
+  color: black; }
+
+.cf:before {
+  content: "";
+  display: table; }
+.cf:after {
+  display: table;
+  content: "";
+  clear: both; }
+
+header div {
+  background-color: #18bc9c; }
+  header div img {
+    width: 100%; }
+  header div h1 {
+    font-family: 'Lato-Black', monospace;
+    color: white;
+    text-align: center;
+    font-size: 2em; }
+  header div h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Lato-Light'; }
+
+main {
+  background-color: white;
+  padding: 15px;
+  color: black; }
+  main img {
+    width: 100%;
+    margin: 5px auto; }
+
+form {
+  width: 100%; }
+  form input {
+    float: left;
+    clear: left; }
+  form textarea {
+    float: left;
+    clear: left; }
+
+.about {
+  background-color: #18bc9c;
+  color: white;
+  font-family: 'Lato-Light'; }
+  .about > div > p {
+    padding: 0px 10px 10px;
+    margin: 0px; }
+  .about h1 {
+    padding: 30px 0 0 0;
+    margin: 0px; }
+
+.white {
+  background-color: white; }
+
+.green {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background-color: #18bc9c;
+  box-shadow: none;
+  border: solid 1px white; }
+
+/*# sourceMappingURL=main.css.map */

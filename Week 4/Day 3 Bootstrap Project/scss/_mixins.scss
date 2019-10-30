@@ -1,0 +1,49 @@
+.dividerWhite{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+    z-index: 1;
+    p {
+        position: relative;
+        bottom: 6px;
+        margin: 0px;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        z-index: 3;
+        font-size: 3em;
+        padding: 1px;
+    }
+
+    div {    
+        display: inline-block;
+        position: relative;
+        border-bottom: solid 0.3em white;
+        bottom: 1em;
+        width:25%;
+        z-index: 2;
+    }
+}
+
+.dividerBlack {
+    @extend .dividerWhite;
+    p{
+        color: black;
+    }
+    div{
+        border-bottom: solid 0.3em black;
+    }
+}
+
+ .titleWhite {
+     font-family: 'Lato-Black';
+     color: white;
+     text-align: center;
+ }
+
+ .titleBlack {
+     @extend .titleWhite;
+     color:black;
+ }
