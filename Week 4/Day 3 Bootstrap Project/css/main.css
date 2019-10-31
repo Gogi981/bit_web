@@ -30,7 +30,7 @@
   display: block;
   text-align: center;
   margin: 0px auto;
-  width: 100%;
+  width: 400px;
   z-index: 1; }
   .dividerWhite p, .dividerBlack p {
     position: relative;
@@ -63,6 +63,15 @@
 .titleBlack {
   color: black; }
 
+#mainNav {
+  background-color: #2c3e50;
+  color: white;
+  width: 100%; }
+  #mainNav .container a {
+    color: white; }
+  #mainNav .container button {
+    background-color: #18bc9c; }
+
 .cf:before {
   content: "";
   display: table; }
@@ -74,7 +83,10 @@
 header div {
   background-color: #18bc9c; }
   header div img {
-    width: 100%; }
+    display: block;
+    margin: 10% auto;
+    width: 20%;
+    border-radius: 100%; }
   header div h1 {
     font-family: 'Lato-Black', monospace;
     color: white;
@@ -85,13 +97,18 @@ header div {
     text-align: center;
     font-family: 'Lato-Light'; }
 
-main {
+body > section {
+  margin-top: 80px; }
+
+.portimg {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px; }
+
+.portfolio {
   background-color: white;
   padding: 15px;
-  color: black; }
-  main img {
-    width: 100%;
-    margin: 5px auto; }
+  margin-top: 80px; }
 
 form {
   width: 100%; }
@@ -105,7 +122,8 @@ form {
 .about {
   background-color: #18bc9c;
   color: white;
-  font-family: 'Lato-Light'; }
+  font-family: 'Lato-Light';
+  margin-top: 80px; }
   .about > div > p {
     padding: 0px 10px 10px;
     margin: 0px; }
