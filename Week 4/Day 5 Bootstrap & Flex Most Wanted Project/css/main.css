@@ -1,0 +1,39 @@
+.main {
+  text-align: center; }
+
+a.other {
+  display: block;
+  margin: 2% auto; }
+
+img.fbi {
+  margin: 3% auto 1%; }
+
+h1#project {
+  font-size: 4em;
+  margin: 4% auto; }
+
+.line {
+  width: 100%;
+  border-bottom: solid 1px black;
+  margin: 4% auto; }
+
+.middle {
+  border: double 2px black; }
+
+/* Bart Most Wanted */
+.table-container div.row {
+  border-top: solid 1px black; }
+.table-container div.row:last-child {
+  border-bottom: solid 1px black; }
+.table-container div.col {
+  border-right: solid 1px black; }
+.table-container div.col:last-child {
+  border-right: none; }
+
+div .col-8 {
+  padding: 0%; }
+
+.d-block {
+  height: 500px; }
+
+/*# sourceMappingURL=main.css.map */

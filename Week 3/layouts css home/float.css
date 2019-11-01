@@ -1,28 +1,38 @@
-
-header, main{
+header, main {
     box-sizing: border-box;
     width: 960px;
     padding: 0px;
     margin: 0px auto;
 }
-header img{
+
+header img {
     width: 100%;
 }
-ul li{
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul li {
     float: right;
     color: aliceblue;
     padding: 15px;
-
 }
-.cf:before, .cf:after{
+
+/* 
+.cf:before, .cf:after {
     content: "";
     display: table;
 }
-.cf::after{
-    clear: both;
+ */
 
+.cf::after {
+    clear: both;
 }
-ul{
+
+ul {
     width: 100%;
     float: right;
     display: inline;
@@ -31,52 +41,66 @@ ul{
     padding: 0;
     margin: 0;
 }
-div{
-    width: 1000px;
-    margin:auto;
 
+div {
+    width: 1000px;
+    margin: auto;
 }
-div img{
+
+div img {
     width: 100%;
     padding: 0;
 }
-#subdiv{
+
+#subdiv {
     margin: 10px;
 }
-#subdiv img{
+
+#subdiv img {
     width: 300px;
     height: 200px;
 }
-article{
-    width: 33.3%;
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-flex-group: 10%;
+}
+
+article {
+    width: 30%;
     height: 434px;
     float: left;
     box-sizing: border-box;
     padding: 0px;
     overflow: hidden;
 }
+
 article p {
     width: 300px;
 }
 
 aside {
     width: 300px;
-    height:200px;
+    height: 200px;
     box-sizing: border-box;
     float: right;
     background-color: #FFBF00;
     padding: 10px;
 }
 
-#footer{
+#footer {
     background-color: rgb(16, 16, 107);
     height: 40px;
     width: 1300px;
     color: white;
 }
+
 footer {
-    padding: 2px 80px;  
-    background-color: #2d3e50; 
+    padding: 2px 80px;
+    background-color: #2d3e50;
     color: white;
     width: 1024px;
     height: 30px;
