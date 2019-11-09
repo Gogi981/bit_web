@@ -1,6 +1,6 @@
 .field {
    width: 100%;
-   height: 900px;
+   height: 800px;
    margin: 0px auto;
    background-image: url("./images/field.png");
    background-repeat: no-repeat;
@@ -13,4 +13,13 @@ img {
     width: 100px;
     top:100px;
     left:100px;
+}
+
+#stopMove {
+    position: absolute;
+    background-color: brown;
+    color: white;
+    height: 40px;
+    right: 0px;
+    bottom: 0px;
 }
