@@ -1,0 +1,62 @@
+#list1 {
+    list-style-type: circle;
+}
+#list2{
+    list-style-type: square;
+}
+#list3{
+    list-style-type: upper-alpha;
+}
+#list4{
+    list-style-type: upper-roman;
+}
+#list5 {
+    list-style-image: url('http://files.softicons.com/download/toolbar-icons/vista-base-software-icons-2-by-icons-land/png/16x16/Circle_Green.png');
+    width: 200px;
+    list-style-position: inside;
+    text-align: justify;
+}
+#list6 {
+    list-style-image: url('http://files.softicons.com/download/toolbar-icons/vista-base-software-icons-2-by-icons-land/png/16x16/Circle_Green.png');
+    width: 200px;
+    list-style-position: inside;
+    text-align: justify;
+
+}
+table{
+    margin: auto;
+    position: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+} 
+table tr:nth-child(odd) {
+   background-color:#eeeeee;
+   
+}
+
+td{
+   padding-top: 10px; 
+   padding-bottom: 10px;
+}
+tr:hover{
+    background-color: #fbbd01;
+}
+th {
+    color: white;
+    font-style: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c1392a;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding: 10px;
+}
+tr {
+  text-align: center;
+
+}
+table img{
+    width:50px;
+}

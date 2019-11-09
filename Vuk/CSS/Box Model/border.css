@@ -1,0 +1,54 @@
+p {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    
+
+}
+.first,.third {
+    width: 300px;
+    border: 2px solid red;
+    padding: 50px;
+    
+
+    
+}
+h1 {
+    background-color: yellow;
+    border: 6px solid red;
+    width: 400px;
+    height: 200px;
+    padding: 50px 50px;; 
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  
+
+
+
+}
+.second {
+    border: 30px solid green;
+    padding-top:  50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third {
+   
+    border: 2px dashed red;
+    padding: 50px 200px 100px;
+    max-height: 100px;
+    overflow: auto;
+    text-align: justify;
+    margin-top: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing:  
+    
+}
+.third >span 
+{
+ margin: auto;
+}

@@ -1,0 +1,25 @@
+#prva {
+    list-style-type: circle;
+}
+
+#drugi {
+    list-style-type: square;
+}
+
+#treci {
+    list-style-type: upper-alpha;
+}
+
+#cetvrti {
+    list-style-type: upper-roman;
+}
+
+#sport {
+    width: 200px;
+    list-style-image: url("2-512.png")
+}
+
+#sport2 {
+    width: 200px;
+    list-style-position: inside;   
+}

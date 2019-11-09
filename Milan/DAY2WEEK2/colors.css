@@ -1,0 +1,21 @@
+p {
+    color: rgb(188, 231, 231);
+    background-color: #35705d86;
+    width: 960px;
+    height:200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24pt;
+
+}
+p#drugi {
+
+    color:  red;
+background-color: rgba(99, 236, 20, 0.5);
+}
+p#treci {
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(28, 36, 36, 0.34);
+    
+
+}

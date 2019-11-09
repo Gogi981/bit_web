@@ -1,0 +1,36 @@
+p {
+    display: inline-block;
+    margin-right: 200px;
+   text-align: justify;
+
+}
+.first {
+    border-radius: 40px;
+
+    background-color: aquamarine;
+}
+span {
+    display: inline;
+    margin: 10px 10px;
+    background-color: red;
+}
+
+.tre  li {
+    position: absolute;
+    background-color: aqua;
+    
+}
+
+.fre > li {
+
+    
+    
+}
+
+
+h1{
+    box-shadow: 30px 20px 10px  10px red;
+    display: inline;
+    background-color: yellow;
+    
+}

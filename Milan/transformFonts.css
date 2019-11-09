@@ -1,0 +1,13 @@
+body{
+    text-align: right;
+}
+.parag1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.parag2 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+
+}

@@ -1,0 +1,90 @@
+h1 {
+    color: rgba(22, 21, 21, 0.5);
+    background: rgb(202, 188, 188);
+}
+h2 {
+font-family: monospace;  
+font-size: 26px;  
+font-style: italic;
+font-weight: bold;
+text-transform: capitalize;
+text-decoration: underline;
+text-align: center;
+vertical-align: center;
+text-indent: 10px;
+text-shadow: 2px 2px 2px rgba(255, 10, 10, 0.5);
+}
+
+#first-paragraph::first-letter {
+    color: rgba(179, 41, 41, 0.5);
+    font-family: fantasy;
+    font-size: 40px;
+}
+#second-paragraph::first-line {
+    color: rgba(179, 41, 41, 0.5);
+    font-family: fantasy;
+    font-size: 40px;
+}
+#third-paragraph::selection {
+    color: rgba(179, 41, 41, 0.5);
+    font-family: fantasy;
+    font-size: 40px;
+}
+#fourth-paragraph::before {
+    color: rgba(179, 41, 41, 0.5);
+    font-family: fantasy;
+    font-size: 40px;
+}
+#fifth-paragraph::after {
+    color: rgba(179, 41, 41, 0.5);
+    font-family: fantasy;
+    font-size: 40px;
+}
+div {
+    background: rgba(177, 39, 39, 0.8);
+    min-width: 200px;
+    min-height: 100px;
+    width: 300px;
+    height: 150px;
+    color: white;
+    overflow: auto;
+    border: rgba(22, 21, 21, 0.5) 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    /*visibility: hidden;*/
+    box-shadow: inset 2px 2px 2px 2px rgba(177, 39, 39, 0.8);
+    border-radius: 10px;
+}
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+ul {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+table {
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    /*border-top
+    border-bottom 
+    text-align 
+    background-color 
+    :hover*/ 
+    border-spacing: 10px !important;
+}
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px;
+}
+input {
+    height: 20px;
+    width: 100px;
+    font-size: 15px; 
+    color: rgba(177, 39, 39, 0.8);
+}

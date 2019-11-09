@@ -1,0 +1,21 @@
+ul {
+    padding: 0px;
+
+}
+
+#firstDiv, #secondDiv {
+width: 500px;
+height:100px;
+}
+
+#firstDiv {
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+    }
+
+#secondDiv {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}

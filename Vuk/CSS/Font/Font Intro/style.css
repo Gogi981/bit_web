@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url(fontstyle/kaushanscript-regular-webfont.woff) format('woff'),
+         url(fontstyle/kaushanscript-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.paragrafone {
+    font-family: 'kaushan_scriptregular';
+    font-size: 25px;
+}
+.paragraftwo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-style: oblique;
+}
+.paragrafthree {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.paragrafone > #quoteone {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraftwo > #quotetwo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#quotethree {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#span {
+    font-style: italic;
+    font-weight: 800;
+}
