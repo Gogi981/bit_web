@@ -1,47 +1,48 @@
-var move1 = 0;
-var move2 = 100;
-var p = addEventListener("keydown", function (e) {
-    if (e.which === 39) {
-        var a = document.querySelector("#active");
-        var i = document.querySelector("#inactive");
-        var b1 = document.querySelector("#bg1");
-        var b2 = document.querySelector("#bg2");
-        a.className = "active";
-        i.className = "inactive";
-        if (move2 === 0) {
-            move1 = 0;
-            move2 = 100;
-        }
-        b1.style.left = move1-- + "%";
-        b2.style.left = move2-- + "%";
-    } else if (e.which === 37) {
-        var a = document.querySelector("#active");
-        var i = document.querySelector("#inactive");
-        var b1 = document.querySelector("#bg1");
-        var b2 = document.querySelector("#bg2");
-        a.style.transform = "scaleX(-1)";
-        a.className = "active";
-        i.className = "inactive";
-        if (move1 === 0) {
-            move1 = -100;
-            move2 = 0;
-        }
-        b1.style.left = move1++ + "%";
-        b2.style.left = move2++ + "%";
+var $marioRunning = document.querySelector("#active");
+var $mario = document.querySelector("#inactive");
+var $background = document.querySelector(".screen");
+
+var backgroundPosition = 0;
+var marioRunning = null;
+
+var game = {
+    bg: 0,
+    marioRunning: null
+};
+
+function stopMario() {
+    $marioRunning.className = "inactive";
+    $mario.className = "active";
+
+    clearInterval(marioRunning);
+
+    marioRunning = null;
+}
+
+function runMarioRun(speed) {
+    $marioRunning.className = "active";
+    $mario.className = "inactive";
+
+    marioRunning = setInterval(function () {
+        backgroundPosition -= speed;
+        $background.style.backgroundPositionX = backgroundPosition + "px";
+    }, 100)
+}
+
+addEventListener("keydown", function (e) {
+    if (e.which === 39 && !marioRunning) {
+        runMarioRun(10);
+    } else if (e.which === 37 && !marioRunning) {
+        runMarioRun(-10);
+        $marioRunning.style.transform = "scaleX(-1)";
     }
 });
 
-var u = addEventListener("keyup", function (e) {
-    if (e.which === 39) {
-        var a = document.querySelector("#active");
-        var i = document.querySelector("#inactive");
-        i.className = "active";
-        a.className = "inactive";
-    } else if (e.which === 37) {
-        var a = document.querySelector("#active");
-        var i = document.querySelector("#inactive");
-        a.style.transform = "scaleX(1)";
-        i.className = "active";
-        a.className = "inactive";
+addEventListener("keyup", function (e) {
+    if (e.which === 39 && marioRunning) {
+        stopMario();
+    } else if (e.which === 37 && marioRunning) {
+        stopMario();
+        $marioRunning.style.transform = "scaleX(1)";
     }
 });
